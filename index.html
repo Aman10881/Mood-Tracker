@@ -1,0 +1,36 @@
+<!-- Mood Tracker
+
+Objective: Create a daily mood tracker where users log their mood each day and visualize their emotional trends
+
+Requirements:
+
+Users pick a mood emoji (happy, sad, neutral, excited, etc.) for the day
+Store the mood logs in LocalStorage
+Display a timeline view of past moods day/week/month wise views (Bonus: to display in calender view)
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+   <button class="Happy">😊</button>
+   <button class="Sad">☹️</button>
+   <button class="Excited">😁</button>
+   <button class="Angery">😡</button>
+   <button class="Tired">😮‍💨</button>
+   <button class="Frustrated">😣</button>
+   <button class="Annoyed">😑</button>
+   <ul id="mood-list"></ul>
+   <button id="reset-mood">Reset Today's Mood</button>
+   <button id="clear-all">Clear All Moods</button>
+   <button id="show-all">Show All Moods</button>
+
+   
+    <script src="./index.js"></script>
+</body>
+</html>
